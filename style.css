@@ -1,0 +1,93 @@
+/* league-spartan-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/league-spartan-v11-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0 auto;
+  background: #3a4663;
+  font-family: "League Spartan", sans-serif;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  height: 708px;
+  margin: 96px 450px;
+}
+.header__calc {
+  display: flex;
+  flex-direction: row;
+}
+.header__calc h4 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.533px;
+  padding-top: 8px;
+  height: 29px;
+}
+.header__calc h5 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding-left: 342px;
+  padding-top: 26px;
+}
+.header__calc img {
+  padding-left: 26px;
+}
+.content__number {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 32px;
+  background: #181f33;
+  width: 540px;
+  height: 128px;
+  border-radius: 10px;
+  padding-left: 323px;
+}
+.content__number h1 {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: -0.933px;
+}
+.calc__number1 {
+  width: 540px;
+  height: 480px;
+  border-radius: 10px;
+  background: #242d44;
+  display: grid;
+  grid-template-columns: 101px 101px 101px 101px;
+  grid-template-rows: 64px 64px 64px 64px 64px;
+  gap: 25px;
+  padding-top: 32px;
+  padding-left: 30px;
+  margin-top: 24px;
+}
+.reset {
+  display: flex;
+  flex-direction: row;
+  margin-top: -88px;
+  padding-left: 30px;
+  gap: 24px;
+}
